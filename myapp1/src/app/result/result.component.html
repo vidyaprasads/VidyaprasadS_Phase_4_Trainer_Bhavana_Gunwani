@@ -1,0 +1,28 @@
+<style>
+    #quote
+{
+    background-image:url("../assets/image/bc.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+</style>
+<div id="head">
+    <div>QuizApp</div>
+</div>
+<div id="body">
+    <div style="text-align: center;padding: 20px 0px 0px 0px;">Your Result</div>
+    <div class="row">
+        <div class="box col-4">
+            <div>Your Score is</div>
+           <div>{{score}}/{{total}}</div>
+        </div>
+        <div class="box col-8" id="quote">
+            {{quote}}
+        </div>
+    </div>    
+    <div>
+        <a routerLink='' class="btn btn-primary">back</a>
+    </div>
+</div>

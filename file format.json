@@ -1,0 +1,94 @@
+ {
+   "quizdata":[
+     {
+      "quizNumber" :  "1",
+        "question" : "Grand Central Terminal, Park Avenue, New York is the world's",
+        "option1" : "largest railway station",
+        "option2" : "highest railway station",
+        "option3" : "longest railway station",
+        "option4" : "None of the above",
+        "answer" : "largest railway station"
+    },
+    {
+      "quizNumber" :  "2",
+        "question" : "Entomology is the science that studies",
+        "option1" : "Behavior of human beings",
+        "option2" : "Insects",
+        "option3" : "The origin and history of technical and scientific terms",
+        "option4" : "The formation of rocks",
+        "answer" : "Insects"
+    },
+    {
+      "quizNumber" :  "3",
+        "question" : "Eritrea, which became the 182nd member of the UN in 1993, is in the continent of",
+        "option1" : "Asia",
+        "option2" : "Africa",
+        "option3" : "Europe",
+        "option4" : "Australia",
+        "answer" : "Africa"
+    },
+    {
+     "quizNumber" :  "4",
+       "question" : "Garampani sanctuary is located at",
+       "option1" : "Junagarh, Gujarat",
+       "option2" : "Diphu, Assam",
+       "option3" : "Kohima, Nagaland",
+       "option4" : "Gangtok, Sikkim",
+       "answer" : "Diphu, Assam"
+   },
+   {
+     "quizNumber" :  "5",
+       "question" : "For which of the following disciplines is Nobel Prize awarded?",
+       "option1" : "Physics and Chemistry",
+       "option2" : "Physiology or Medicine",
+       "option3" : "Literature, Peace and Economics",
+       "option4" : "All of the above",
+       "answer" : "All of the above"
+   },
+   {
+    "quizNumber" :  "6",
+      "question" : "Hitler party which came into power in 1933 is known as",
+      "option1" : "Labour Party",
+      "option2" : "Nazi Party",
+      "option3" : "Ku-Klux-Klan",
+      "option4" : "Democratic Party",
+      "answer" : "Nazi Party"
+  },
+  {
+    "quizNumber" :  "7",
+      "question" : "FFC stands for",
+      "option1" : "Foreign Finance Corporation",
+      "option2" : "Film Finance Corporation",
+      "option3" : "Federation of Football Council",
+      "option4" : "None of the above",
+      "answer" : "Film Finance Corporation"
+  },
+  {
+    "quizNumber" :  "8",
+      "question" : "Fastest shorthand writer was",
+      "option1" : "Dr. G. D. Bist",
+      "option2" : "J.R.D. Tata",
+      "option3" : "J.M. Tagore",
+      "option4" : "Khudada Khan",
+      "answer" : "Dr. G. D. Bist"
+  },
+  {
+    "quizNumber" :  "9",
+      "question" : "First human heart transplant operation conducted by Dr. Christiaan Barnard on Louis Washkansky, was conducted inf",
+      "option1" : "1967",
+      "option2" : "1968",
+      "option3" : "1952",
+      "option4" : "1922",
+      "answer" : "1967"
+  },
+  {
+    "quizNumber" :  "10",
+      "question" : "Galileo was an Italian astronomer who",
+       "option1" : "developed the telescope",
+      "option2" : "discovered four satellites of Jupiter",
+      "option3" : "discovered that the movement of pendulum produces a regular time measurement",
+      "option4" : "All of the above",
+      "answer" : "All of the above"
+  }
+  
+  ]}

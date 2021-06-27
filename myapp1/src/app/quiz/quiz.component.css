@@ -1,0 +1,51 @@
+#quizalign
+{
+    padding: 10px 20px 50px 20px;
+}
+#optionalign
+{
+    padding: 0px 50px;
+}
+.quizbox
+{
+    margin: 20px;
+}
+#body
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600px;
+    padding:50px 40px;
+}
+span{
+    color:#FF616D;
+    font-family: 'Montserrat',sans-serif;
+}
+label
+{
+    margin:0px 10px;
+    font-family: sans-serif;
+}
+p{
+    font-family: sans-serif;
+}
+.col-9
+{
+    padding:0px 10px 40px 40px;
+    border-left: solid 1px;
+}
+.row
+{
+    margin:0px;
+}
+.col-3
+{
+    padding: 10px 20px 10px 10px;
+}
+ul{
+    margin-top: 20px;
+}
+ul li{
+    margin-bottom:10px;
+    font-family: sans-serif;
+}

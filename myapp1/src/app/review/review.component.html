@@ -1,0 +1,27 @@
+<div id="head">
+    <div>QuizApp</div>
+</div>
+<div>
+    <div id="box">
+        <div class="quizbox" *ngFor="let question of jsonresult;let i=index">
+            <h4>Quiz {{question.quizNumber}} :</h4>
+            <div id="quizalign">
+                <p><span>Question :</span> {{question.question}}</p>
+                <p><span>Options :</span></p>
+                <div id="optionalign">
+                    <ul>
+                    <li><label> {{question.option1}}</label></li>
+                    <li><label> {{question.option2}}</label></li>
+                    <li><label> {{question.option3}}</label></li>
+                    <li><label> {{question.option4}}</label></li>
+                </ul>
+                </div>
+            </div> 
+            <div style="color:black;background-color:gray;padding: 10px;margin-top: 10px;">Your Answer: {{yourans[i+1]}}</div>
+            <div style="color:black;background-color:green;padding: 10px;margin-top: 10px;">Correct Answer: {{question.answer}}</div>
+        </div>
+       <div>
+           <a routerLink='' class="btn btn-primary">back</a>
+       </div>
+    </div>
+</div>

@@ -1,0 +1,47 @@
+<div id="head">
+    <div>QuizApp</div>
+</div>
+<div id="body" class="row">
+    <div class="col-3">
+        <h2>Instructions</h2>
+        <ul>
+            <li>After read the question Choose any one of the listed options</li>
+            <li>after answer all the questions click submit button</li>
+            <li>Don't submit before you answer the question it will reflect in result</li>
+            <li>If you want to go back you can use back button</li>
+        </ul>
+    </div>
+    <div class="col-9">
+        <form #form="ngForm" (submit)="quizsubmit(form)">
+        <div class="quizbox" *ngFor="let question of jsonresult">
+        <h4>Quiz {{question.quizNumber}} :</h4>
+        <div id="quizalign">
+            <p><span>Question :</span> {{question.question}}</p>
+            <p><span>Options :</span></p>
+            <div id="optionalign">
+                <input type="radio" [name]="question.quizNumber" [value]="question.option1" ngModel><label> {{question.option1}}</label><br>
+                <input type="radio" [name]="question.quizNumber" [value]="question.option2" ngModel><label> {{question.option2}}</label><br>
+                <input type="radio" [name]="question.quizNumber" [value]="question.option3" ngModel><label> {{question.option3}}</label><br>
+                <input type="radio" [name]="question.quizNumber" [value]="question.option4" ngModel><label> {{question.option4}}</label><br>
+            </div>
+        </div> 
+       </div> 
+       <!-- <h4>Quiz {{jsonresult[0].quizNumber}} :</h4>
+       <div id="quizalign">
+        <p><span>Question :</span> {{jsonresult[0].question}}</p>
+        <p><span>Options :</span></p>
+        <div id="optionalign">
+            <input type="radio" name="options" value="Ferrari" ngModel><label> {{jsonresult[0].option1}}</label><br>
+            <input type="radio" name="options" value="Nisson" ngModel><label> {{jsonresult[0].option2}}</label><br>
+            <input type="radio" name="options" value="Ford" ngModel><label> {{jsonresult[0].option3}}</label><br>
+            <input type="radio" name="options" value="Masrati" ngModel><label> {{jsonresult[0].option4}}</label><br>
+        </div>
+       </div> -->
+       
+       <button type="submit" class="btn btn-danger" style="margin-right:20px;">Submit</button>
+       
+        <a routerLink='' class="btn btn-primary">back</a>
+       
+    </form>
+    </div>
+</div>
